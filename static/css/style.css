@@ -466,17 +466,10 @@ Post List
 
 #post-meta div span.dark {
 	color: #1E2025;
-
-}
-
-#post-meta div {
-	margin: 0 25px 0 0;
-	float: left;
 }
 
 #sharing {
-	float: right;
-	margin: -2px;
+    text-align: center;
 }
 
 #sharing a {
@@ -605,12 +598,6 @@ h2.month {
 #post-list.archive.readmore .dates{
 	font: 300 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif;
 }
-#sharing a.facebook {
-  background: #4361b3;
-}
-#sharing a.twitter {
-  background: #4fafed;
-}
 
 #sharing a {
   font-size: 20px;
@@ -661,9 +648,9 @@ a.symbol:hover {
     color: #BCD4DA;
 }
 
-code { 
-	font-family:Menlo, Monaco, Courier; 
-	background-color:#EEE; font-size:14px; 
-	padding: 4px; 
+code {
+	font-family:Menlo, Monaco, Courier;
+	background-color:#EEE; font-size:14px;
+	padding: 4px;
 	font-weight: 600;
 }

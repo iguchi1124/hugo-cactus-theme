@@ -21,12 +21,6 @@
 </article>
 
 <footer id="post-meta" class="clearfix">
-    {{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}">{{ end }}
-    <img class="avatar" src="{{ .Site.Params.avatarURL }}">
-    <div>
-        <span class="dark">{{ .Site.Params.name }}</span>
-        <span>{{ .Site.Params.aboutAuthor }}</span>
-    </div>
     {{ with .Site.Params.twitter }}</a>{{ end }}
     <section id="sharing">
         {{ partial "share.html" . }}
@@ -35,5 +29,4 @@
 
 {{ template "_internal/disqus.html" . }}
 
-{{ partial "latest-posts.html" . }}
 {{ end }}
